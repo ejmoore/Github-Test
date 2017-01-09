@@ -38,3 +38,6 @@ To upload this branch to GitHub all you have to do is to push it
 	"git push origin branch_name
 
 Now you can work on you branch in the same manner as you were working on your project before by adding, commiting, and pushing. The key difference now is that as long as you're the only one working on your branch, all the settings, code changes, and additions implemented on this branch will only be seen while using this branch. This helps us avoid merge conflicts for simple things like changing variable values for testing purposes or adding a new method to a major class.
+
+
+Test commit/push
