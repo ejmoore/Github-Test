@@ -26,3 +26,15 @@ In Review:
 	Add a new file "git add filename"
 	Commit your changes "git commit -m "message""
 	push your code "git push" (Note that you no longer nead the "-u origin master")
+
+STEP 2 : Branches
+
+Branches are a way to organize your GitHub repository. They are absolutely essential to make sure you aren't stepping on anyone elses toes during development. Typically there will be a branch for each feature you are adding to your project. You can keep working on that feature until it's complete then you merge the branch back into the main project. Think of it like one giant commit for the entire feature.
+
+To create a new branch it's another simple command
+	"git checkout -b branch_name (this creates a new branch and switches to it locally)
+
+To upload this branch to GitHub all you have to do is to push it
+	"git push origin branch_name
+
+Now you can work on you branch in the same manner as you were working on your project before by adding, commiting, and pushing. The key difference now is that as long as you're the only one working on your branch, all the settings, code changes, and additions implemented on this branch will only be seen while using this branch. This helps us avoid merge conflicts for simple things like changing variable values for testing purposes or adding a new method to a major class.
